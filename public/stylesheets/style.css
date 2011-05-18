@@ -1,0 +1,44 @@
+.playarea
+{
+    border: 1px solid black;
+    height: 480px;
+    width: 640px;
+    float: left;
+    margin-right: 20px;
+}
+
+.infoarea
+{
+    border: 1px solid gray;
+    height: 320px;
+    width: 200px;
+    float: left;
+}
+
+.chatarea
+{
+    clear: left;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 640px;
+}
+
+.messages
+{
+    height: 100px;
+    overflow: scroll;
+}
+
+#saytext
+{
+    float: left; 
+    margin-right: 10px;
+}
+
+#chatinput
+{
+    float: left;
+    height: 40px;
+    width: 550px;
+}
